@@ -1,5 +1,6 @@
 # Typescript
 **Task: GitHub Integration and Interactive Website with TypeScript**
+
 The goal of this task is to create an interactive website using HTML, CSS, and TypeScript, while managing your project using Git and GitHub. By the end of the task, you'll have a live website hosted on GitHub Pages, demonstrating interactive features like event handling and data fetching. Below are the detailed steps.
 
 **1.Create a new branch feature/tsconfig**
