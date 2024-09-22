@@ -28,21 +28,27 @@ Fetching data using fetch() from https://jsonplaceholder.typicode.com/ and displ
 
 
 **5.Write JavaScript in TypeScript**
+
 Write all JavaScript code in a TypeScript (.ts) file. Ensure that you define primitive types (number, boolean, string, etc.) in your code. Compile the TypeScript file into JavaScript.
 
 **6.Connect the compiled JavaScript to HTML**
+
 Once your .ts file is compiled into JavaScript, link the compiled .js file in your HTML template to ensure the website functions correctly.
 
 **7.Push the changes to the feature/tsconfig branch**
+
 After setting up TypeScript, configuring the tsconfig file, and adding interactivity, commit and push all the changes to the feature/tsconfig branch.
 
 **8.Create a GitHub Pages site from the feature/tsconfig branch**
+
 After pushing your changes, set up GitHub Pages to host your website directly from the feature/tsconfig branch. Follow the instructions at GitHub Pages to get your site live.
 
 **9.Submit the GitHub repository link and live site URL**
+
 After completing the above steps, submit:
 The link to the feature/tsconfig branch.
 The link to your live website hosted on GitHub Pages.
 
 **10.Describe the interactive features in comments**
+
 In your task submission comments, describe all the interactive features you've added to the website (e.g., how modal windows work, what events are triggered, how data from the API is displayed, etc.).
