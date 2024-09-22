@@ -1,30 +1,29 @@
+"use strict";
+var _a, _b;
 // Example: Modal window opening/closing
-const openModal = (modalId: string): void => {
-  const modal = document.getElementById(modalId);
-  if (modal) {
-    modal.style.display = 'block';
-  }
+const openModal = (modalId) => {
+    const modal = document.getElementById(modalId);
+    if (modal) {
+        modal.style.display = 'block';
+    }
 };
-
-const closeModal = (modalId: string): void => {
-  const modal = document.getElementById(modalId);
-  if (modal) {
-    modal.style.display = 'none';
-  }
+const closeModal = (modalId) => {
+    const modal = document.getElementById(modalId);
+    if (modal) {
+        modal.style.display = 'none';
+    }
 };
-
-document.getElementById('openModalButton')?.addEventListener('click', () => openModal('myModal'));
-document.getElementById('closeModalButton')?.addEventListener('click', () => closeModal('myModal'));
-
+(_a = document.getElementById('openModalButton')) === null || _a === void 0 ? void 0 : _a.addEventListener('click', () => openModal('myModal'));
+(_b = document.getElementById('closeModalButton')) === null || _b === void 0 ? void 0 : _b.addEventListener('click', () => closeModal('myModal'));
 // Example: Fetch data and display it
-const fetchData = async (): Promise<void> => {
-  try {
-    const response = await fetch('https://jsonplaceholder.typicode.com/posts');
-    const data = await response.json();
-    console.log(data);
-  } catch (error) {
-    console.error('Error fetching data:', error);
-  }
+const fetchData = async () => {
+    try {
+        const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+        const data = await response.json();
+        console.log(data);
+    }
+    catch (error) {
+        console.error('Error fetching data:', error);
+    }
 };
-
 fetchData();
