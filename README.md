@@ -1,4 +1,4 @@
-#Topic: "Development of a University Schedule Management System"
+#Topic: "Development of a University Schedule Management System"#
 **Goal:**
 Create a system for managing university class schedules using concepts of Union Types, Type Aliases, and Arrays in TypeScript.
 
