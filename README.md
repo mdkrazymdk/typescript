@@ -6,7 +6,7 @@ Create a system for managing university class schedules using concepts of Union 
 
 ## Tasks:
 
-**Definition of Basic Types:**
+### Definition of Basic Types:
 
 a) Create a type alias DayOfWeek for the days of the week ("Monday" | "Tuesday" | ... | "Friday").
 
@@ -15,7 +15,7 @@ b) Create a union type TimeSlot for possible class time slots ("8:30-10:00" | "1
 c) Define a type alias CourseType for types of classes ("Lecture" | "Seminar" | "Lab" | "Practice").
 
 
-**Creation of Basic Structures:**
+### Creation of Basic Structures:
 
 a) Create a type alias Professor with fields: id (number), name (string), department (string).
 
@@ -26,7 +26,7 @@ c) Create a type alias Course with fields: id (number), name (string), type (Cou
 d) Define a type alias Lesson with fields: courseId (number), professorId (number), classroomNumber (string), dayOfWeek (DayOfWeek), timeSlot (TimeSlot).
 
 
-**Working with Data Arrays:**
+### Working with Data Arrays:
 
 
 a) Create arrays professors: Professor[], classrooms: Classroom[], courses: Course[], and schedule: Lesson[].
@@ -36,30 +36,36 @@ b) Write a function addProfessor(professor: Professor): void to add a new profes
 c) Create a function addLesson(lesson: Lesson): boolean that adds a lesson to the schedule if there are no conflicts.
 
 
-**Search and Filtering Functions:**
+### Search and Filtering Functions:
+
 
 a) Implement a function findAvailableClassrooms(timeSlot: TimeSlot, dayOfWeek: DayOfWeek): string[] that returns the numbers of available classrooms at the specified time.
 
 b) Write a function getProfessorSchedule(professorId: number): Lesson[] that returns the schedule of a specific professor.
 
-**Conflict Handling and Validation:**
+
+### Conflict Handling and Validation:
+
 
 a) Create a type alias ScheduleConflict with fields: type ("ProfessorConflict" | "ClassroomConflict"), lessonDetails: Lesson.
 
 b) Write a function validateLesson(lesson: Lesson): ScheduleConflict | null that checks whether a new lesson creates conflicts in the schedule.
 
 
-**Analysis and Reports:**
+### Analysis and Reports:
 
 a) Implement a function getClassroomUtilization(classroomNumber: string): number that returns the percentage utilization of a classroom.
 
 b) Create a function getMostPopularCourseType(): CourseType that determines the most popular type of class.
 
-**Data Modification:**
+
+### Data Modification:
+
 
 a) Write a function reassignClassroom(lessonId: number, newClassroomNumber: string): boolean that changes the classroom for a lesson if possible.
 
 b) Implement a function cancelLesson(lessonId: number): void that removes a lesson from the schedule.
+
 
 ## Expected Results:
 
