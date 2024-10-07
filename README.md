@@ -41,14 +41,15 @@ b) Create a function getMostPopularCourseType(): CourseType that determines the 
 a) Write a function reassignClassroom(lessonId: number, newClassroomNumber: string): boolean that changes the classroom for a lesson if possible.
 b) Implement a function cancelLesson(lessonId: number): void that removes a lesson from the schedule.
 
-**Expected Results:**
+##Expected Results:
+
 All types are correctly defined using type aliases and union types.
 Functions are implemented with correct parameter typing and return values.
 Efficient handling of data arrays, including adding, removing, and searching for elements.
 Correct handling of schedule conflicts and data validation.
 Analysis functions provide useful information about university resource utilization.
 
-**The task is considered complete if:**
+##The task is considered complete if:
 All task points are implemented and function correctly.
 The code is written using proper TypeScript practices, without using interfaces and generics.
 Typing is used consistently and correctly throughout the project.
