@@ -4,7 +4,7 @@
 
 Create a system for managing university class schedules using concepts of Union Types, Type Aliases, and Arrays in TypeScript.
 
-### Tasks:
+## Tasks:
 
 **Definition of Basic Types:**
 
@@ -61,7 +61,7 @@ a) Write a function reassignClassroom(lessonId: number, newClassroomNumber: stri
 
 b) Implement a function cancelLesson(lessonId: number): void that removes a lesson from the schedule.
 
-#### Expected Results:**
+### Expected Results:
 
 All types are correctly defined using type aliases and union types.
 
@@ -74,7 +74,7 @@ Correct handling of schedule conflicts and data validation.
 Analysis functions provide useful information about university resource utilization.
 
 
-#### The task is considered complete if:
+### The task is considered complete if:
 
 All task points are implemented and function correctly.
 
