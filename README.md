@@ -69,6 +69,11 @@ b) Implement a function cancelLesson(lessonId: number): void that removes a less
 
 ## Expected Results:
 
+
+Add ESLint and Prettier 
+
+Install Husky and lint-staged. 
+
 All types are correctly defined using type aliases and union types.
 
 Functions are implemented with correct parameter typing and return values.
@@ -93,4 +98,6 @@ Functions return expected results for various input data.
 Basic error handling and edge cases are implemented.
 
 The code is accompanied by short comments explaining the logic of complex parts.
+
+Updates should be done in a separate branch and link to the branch where you installed ESLint and Prettier and implemented Husky and lint-staged.
 
